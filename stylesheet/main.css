@@ -4,7 +4,20 @@
 	border: 0;
 }
 
+.page1 {
+  position: relative;
+  margin: 0 auto;
+	text-align: center;
+	padding: 50% 10% 10% 50%;
+	background-color: #FFE5CC;
+  border: 12px solid white;
+}
+
+
 .red img {
+  position: absolute;
+  top: 20%;
+  left: 25%;
   height: 100px;
   border: 25px solid red;
   width: 15%;
@@ -12,6 +25,9 @@
 }
 
 .aqua img {
+  position: absolute;
+  top: 20%;
+  left: 55%;
   height: 100px;
   border: 25px solid aqua;
   width: 15%;
@@ -19,17 +35,125 @@
 }
 
 .orange img {
+ position: absolute;
+ top: 55%;
+ left: 25%;
+ height: 100px;
+ border: 25px solid orange;
+ width: 15%;
+ max-width: 100%;
+}
+
+.blue img {
+ position: absolute;
+ top: 55%;
+ left: 55%;
+ height: 100px;
+ border: 25px solid darkblue;
+ width: 15%;
+ max-width: 100%;
+}
+
+/* 2nd page number styling*/
+.page2 {
+	position: relative;
+  margin: 0 auto;
+	text-align: center;
+	padding: 50% 10% 10% 50%;
+	background-color: beige;
+  border: 12px solid white;
+}
+
+.red2 img {
+ position: absolute;
+ top: 3%;
+ left: 1%;
+ height: 100px;
+ border: 25px solid red;
+ width: 15%;
+ max-width: 100%;
+}
+
+.number1 {
+	position: absolute;
+	top: 20%;
+	left: 25%;
+	height: 100px;
+	width: 15%;
+	max-width: 100%;
+}
+
+.number1 p {
+	font-size: 2.5em;
+}
+
+.orange2 img {
+  position: absolute;
+  top: 70%;
+  left: 1%;
   height: 100px;
   border: 25px solid orange;
   width: 15%;
   max-width: 100%;
 }
 
-.blue img {
+.number3 {
+	position: absolute;
+	top: 60%;
+	left: 25%;
+	height: 100px;
+	width: 15%;
+	max-width: 100%;
+}
+
+.number3 p {
+	font-size: 2.5em;
+}
+
+.aqua2 img {
+  position:absolute;
+  top: 3%;
+  left: 78%;
   height: 100px;
+  border: 25px solid aqua;
+  width: 15%;
+  max-width: 100%;
+}
+
+.number2 {
+position: absolute;
+	top: 20%;
+	left: 55%;
+	height: 100px;
+	width: 15%;
+	max-width: 100%;
+}
+
+.number2 p {
+	font-size: 2.5em;
+}
+
+.blue2 img {
+  position: absolute;
+	top: 70%;
+	left: 78%;
+	height: 100px;
   border: 25px solid darkblue;
   width: 15%;
   max-width: 100%;
+}
+
+.number4 {
+position: absolute;
+	top: 60%;
+	left: 55%;
+	height: 100px;
+	width: 15%;
+	max-width: 100%;
+}
+
+.number4 p {
+ font-size: 2.5em;
 }
 
 .page3 p {
@@ -63,14 +187,251 @@
   border: 25px dotted red;
 }
 
-.page4-row img {
-  display: flex;
-  height: 100px;
-  width: 10%;
-  max-width: 100%;
+/* 3rd page number styling*/
+.page3 {
+	position: relative;
+  margin: 0 auto;
+	text-align: center;
+	padding: 50% 10% 10% 50%;
+	background-color: blue;
+  border: 12px solid white;
 }
 
-.column {
-  flex: 33.33%;
-  padding: 5px;
+.number-1 {
+  position: absolute;
+ 	top: 20%;
+ 	left: 25%;
+ 	height: 100px;
+ 	width: 15%;
+ 	max-width: 100%;
+  border: 25px dotted darkblue;
+}
+
+.number-2 {
+ position: absolute;
+ top: 20%;
+ left: 55%;
+ height: 100px;
+ width: 15%;
+ max-width: 100%;
+  border: 25px dotted pink;
+}
+
+.number-3 {
+position: absolute;
+ top: 60%;
+ left: 25%;
+ height: 100px;
+ width: 15%;
+ max-width: 100%;
+  border: 25px dotted maroon;
+}
+
+.number-4 {
+ position: absolute;
+ top: 60%;
+ left: 55%;
+ height: 100px;
+ width: 15%;
+ max-width: 100%;
+  border: 25px dotted red;
+}
+
+/*Fourth Page */
+.page4-row {
+	position: relative;
+  margin: 0 auto;
+	text-align: center;
+	padding: 50% 10% 10% 50%;
+	background-color: pink;
+  border: 12px solid white;
+}
+
+.page4-row p {
+  margin: auto 0;
+  font-size: 1.5em;
+}
+
+.page4-row img {
+ height: 70%;
+ width: 40%;
+ max-width: 100%;
+}
+
+.column1 img {
+	position: absolute;
+	top: 7%;
+	left:9%;
+}
+
+.column2 img {
+	position: absolute;
+	top: 7%;
+	left:40%;
+}
+
+.column3 img {
+	position: absolute;
+	top: 4%;
+	left:60%;
+}
+
+/*Dots Code*/
+.dot1 {
+  height: 25px;
+  width: 25px;
+  background-color: purple;
+  border-radius: 50%;
+  position: absolute;
+  top: 8%;
+  left: 5%;
+  animation: rotate 5s linear;
+}
+
+.dot2 {
+  height: 25px;
+  width: 25px;
+  background-color: yellow;
+  border-radius: 50%;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  animation: rotate 5s linear;
+}
+
+.dot3 {
+  height: 25px;
+  width: 25px;
+  background-color: orange;
+  border-radius: 50%;
+  position: absolute;
+  top: 8%;
+  left: 30%;
+  animation: rotate 5s linear;
+}
+
+.dot4 {
+  height: 25px;
+  width: 25px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 19%;
+  left: 50%;
+  animation: rotate 5s linear;
+}
+
+.dot5 {
+  height: 25px;
+  width: 25px;
+  background-color: aqua;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  left: 60%;
+  animation: rotate 5s linear;
+}
+
+.dot6 {
+  height: 25px;
+  width: 25px;
+  background-color: blue;
+  border-radius: 50%;
+  position: absolute;
+  top: 20%;
+  left: 70%;
+  animation: rotate 5s linear;
+}
+
+.dot7 {
+  height: 25px;
+  width: 25px;
+  background-color: purple;
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+  left: 75%;
+  animation: rotate 5s linear;
+}
+
+
+.dot8 {
+  height: 25px;
+  width: 25px;
+  background-color: yellow;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  animation: rotate 5s linear;
+}
+
+.dot9 {
+  height: 25px;
+  width: 25px;
+  background-color: orange;
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+  left: 85%;
+  animation: rotate 5s linear;
+}
+
+.dot10 {
+  height: 25px;
+  width: 25px;
+  background-color: blue;
+  border-radius: 50%;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  animation: rotate 5s linear;
+}
+
+.dot11 {
+  height: 25px;
+  width: 25px;
+  background-color: aqua;
+  border-radius: 50%;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  animation: rotate 5s linear;
+}
+
+.dot12 {
+  height: 25px;
+  width: 25px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  animation: rotate 5s linear;
+}
+
+.dot13 {
+  height: 25px;
+  width: 25px;
+  background-color: purple;
+  border-radius: 50%;
+  position: absolute;
+  top: 8%;
+  left: 5%;
+  animation: rotate 5s linear;
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotatex(90deg);
+	}
+
+	50% {
+		transform: rotatex(0);
+	}
+}
+
+@keyframes blink {
+	0%{opacity:1;}
+	100%{opacity: 0;}
 }
