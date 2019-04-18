@@ -13,8 +13,7 @@
   border: 12px solid white;
 }
 
-
-.red img {
+.eyebox img {
   position: absolute;
   top: 20%;
   left: 25%;
@@ -24,7 +23,7 @@
   max-width: 100%;
 }
 
-.aqua img {
+.lipbox img {
   position: absolute;
   top: 20%;
   left: 55%;
@@ -34,7 +33,7 @@
   max-width: 100%;
 }
 
-.orange img {
+.nailbox img {
  position: absolute;
  top: 55%;
  left: 25%;
@@ -44,7 +43,7 @@
  max-width: 100%;
 }
 
-.blue img {
+.makebox img {
  position: absolute;
  top: 55%;
  left: 55%;
@@ -81,6 +80,10 @@
 	height: 100px;
 	width: 15%;
 	max-width: 100%;
+}
+
+.red {
+  background-color: red;
 }
 
 .number1 p {
