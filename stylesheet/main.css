@@ -21,6 +21,7 @@
   border: 25px solid red;
   width: 15%;
   max-width: 100%;
+
 }
 
 .lipbox img {
@@ -84,6 +85,11 @@
 
 .red {
   background-color: red;
+  opacity: 0;
+}
+
+.hide {
+  display: none;
 }
 
 .number1 p {
@@ -279,6 +285,11 @@ position: absolute;
 	left:60%;
 }
 
+button {
+  margin: 0 auto;
+  border: 5px dotted #20B2AA;
+}
+
 /*Dots Code*/
 .dot1 {
   height: 25px;
@@ -310,7 +321,7 @@ position: absolute;
   position: absolute;
   top: 8%;
   left: 30%;
-  animation: rotate 5s linear;
+  animation: rotate 8s linear;
 }
 
 .dot4 {
@@ -321,7 +332,7 @@ position: absolute;
   position: absolute;
   top: 19%;
   left: 50%;
-  animation: rotate 5s linear;
+  animation: rotate 8s linear;
 }
 
 .dot5 {
@@ -332,7 +343,7 @@ position: absolute;
   position: absolute;
   top: 10%;
   left: 60%;
-  animation: rotate 5s linear;
+  animation: rotate 11s linear;
 }
 
 .dot6 {
@@ -343,7 +354,7 @@ position: absolute;
   position: absolute;
   top: 20%;
   left: 70%;
-  animation: rotate 5s linear;
+  animation: rotate 11s linear;
 }
 
 .dot7 {
@@ -354,7 +365,7 @@ position: absolute;
   position: absolute;
   top: 30%;
   left: 75%;
-  animation: rotate 5s linear;
+  animation: rotate 14s linear;
 }
 
 
@@ -366,7 +377,7 @@ position: absolute;
   position: absolute;
   top: 10%;
   left: 80%;
-  animation: rotate 5s linear;
+  animation: rotate 14s linear;
 }
 
 .dot9 {
@@ -377,7 +388,7 @@ position: absolute;
   position: absolute;
   top: 30%;
   left: 85%;
-  animation: rotate 5s linear;
+  animation: rotate 17s linear;
 }
 
 .dot10 {
@@ -388,7 +399,7 @@ position: absolute;
   position: absolute;
   top: 20%;
   left: 10%;
-  animation: rotate 5s linear;
+  animation: rotate 17s linear;
 }
 
 .dot11 {
@@ -399,7 +410,7 @@ position: absolute;
   position: absolute;
   top: 40%;
   left: 5%;
-  animation: rotate 5s linear;
+  animation: rotate 20s linear;
 }
 
 .dot12 {
@@ -410,7 +421,7 @@ position: absolute;
   position: absolute;
   top: 30%;
   left: 15%;
-  animation: rotate 5s linear;
+  animation: rotate 20s linear;
 }
 
 .dot13 {
@@ -421,7 +432,7 @@ position: absolute;
   position: absolute;
   top: 8%;
   left: 5%;
-  animation: rotate 5s linear;
+  animation: rotate 20s linear;
 }
 
 @keyframes rotate {
